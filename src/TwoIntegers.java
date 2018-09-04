@@ -27,19 +27,13 @@ public class TwoIntegers
 	}
 	public String Arithmetic()
 	{	
-		return " = " + (integer1+integer2);
-	}
-	public String Arithmetic2()
-	{
-		return " = " + integer1 * integer2;
-	}
-	public String Arithmetic3()
-	{
-		return " = " + integer1 / integer2;
-	}
-	public String Arithmetic4()
-	{
-		return " = " + integer1 % integer2 ;
+		String s = "";
+		s += integer1 + " + " + integer2 + " = " + (integer1 + integer2) +", ";
+		s += integer1 + " - " + integer2 + " = " + (integer1 - integer2) +", ";
+		s += integer1 + " * " + integer2 + " = " + (integer1 * integer2) + ", ";
+		s += integer1 + " / " + integer2 + " = " + (integer1 / integer2) + ", ";
+		s += integer1 + " % " + integer2 + " = " + (integer1 % integer2);
+		return s;
 	}
 	public int Larger()
 	{

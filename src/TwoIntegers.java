@@ -26,14 +26,13 @@ public class TwoIntegers
 		this.integer2 = integer2;
 	}
 	public String Arithmetic()
-	{	
-		String s = "";
-		s += integer1 + " + " + integer2 + " = " + (integer1 + integer2) +", ";
-		s += integer1 + " - " + integer2 + " = " + (integer1 - integer2) +", ";
-		s += integer1 + " * " + integer2 + " = " + (integer1 * integer2) + ", ";
-		s += integer1 + " / " + integer2 + " = " + (integer1 / integer2) + ", ";
-		s += integer1 + " % " + integer2 + " = " + (integer1 % integer2);
-		return s;
+	{
+		return integer1 + " + " + integer2 + " = " + (integer1 + integer2) + " , "
+		+ integer1 + " - " + integer2 + " = " + (integer1 - integer2) + " , "
+		+ integer1 + " * " + integer2 + " = " + (integer1*integer2) + " , "
+		+integer1 + " / " + integer2 + " = " + (integer1/integer2) + " , "
+		+ integer1 + " % " + integer2 + " = " + (integer1%integer2);
+		
 	}
 	public int Larger()
 	{
